@@ -52,6 +52,10 @@ li { padding-left: .28rem; margin: 8px 0; }
 .inline-action { color: #006f84; font-weight: 680; }
 .fine-print { margin-top: 70px; color: var(--muted); font-size: .82rem; }
 .single-column { width: min(680px, calc(100% - 48px)); margin: 74px auto 110px; }
+.home-page { margin-top: clamp(120px, 20vh, 220px); }
+.home-copy h1 { font-size: clamp(2.4rem, 5vw, 3.5rem); }
+.home-copy p { max-width: 530px; color: #4c5966; font-size: 1.04rem; }
+.home-copy .inline-action { display: inline-block; margin-top: 12px; }
 .policy h1 { font-size: clamp(2.4rem, 5vw, 3.5rem); }
 .policy h2 { margin-top: 40px; }
 .effective-date { margin-top: 18px; color: var(--muted); font-size: .92rem; }
@@ -62,5 +66,6 @@ li { padding-left: .28rem; margin: 8px 0; }
   .doc-layout { display: block; margin-top: 48px; }
   .doc-aside { display: none; }
   .single-column { margin-top: 48px; }
+  .home-page { margin-top: 100px; }
   nav { gap: 14px; }
 }
